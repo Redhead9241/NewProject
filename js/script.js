@@ -8,6 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
         tabsContent.forEach(item => {
             // item.style.display = 'none';
             item.classList.add('hide');
+            //hello
             item.classList.remove('show','fade');
         });
         tabs.forEach(item => {
