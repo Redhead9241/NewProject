@@ -9,7 +9,7 @@ const person = {
     }
 };
 
-const clone = JSON.parse(JSON.stringify(person));
+const clone = JSON.parse(JSON.stringify(person)); //это совершенно другой объект, передаются значения не по ссылке.
 
 clone.parents.mom = 'Kilo';
 console.log(person);
